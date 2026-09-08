@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contacta con Explora Loja para conocer nuestros servicios y paquetes turísticos.">
+
+    <title>Contacto | Explora Loja</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="contenedor nav-container">
+
+            <a href="index.html" class="logo">
+                🌄 Explora Loja
+            </a>
+
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html" class="activo">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section class="seccion">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <p class="etiqueta">PLANIFICA TU VIAJE</p>
+
+                    <h1>Contáctanos</h1>
+
+                    <p>
+                        Completa el siguiente formulario y cuéntanos
+                        qué experiencia turística te gustaría disfrutar
+                        en Loja.
+                    </p>
+
+                </div>
+
+
+                <!-- FORMULARIO -->
+                <form class="formulario" action="#" method="post">
+
+                    <!-- NOMBRE -->
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre completo *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Escribe tu nombre completo"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- CORREO -->
+                    <div class="campo">
+
+                        <label for="correo">
+                            Correo electrónico *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="infomontoya@exploraloja.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- TELÉFONO -->
+                    <div class="campo">
+
+                        <label for="telefono">
+                            Teléfono *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="0994109434"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DESTINO -->
+                    <div class="campo">
+
+                        <label for="destino">
+                            Destino o actividad *
+                        </label>
+
+                        <select
+                            id="destino"
+                            name="destino"
+                            required
+                        >
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option value="jipiro">
+                                Parque Recreacional Jipiro
+                            </option>
+
+                            <option value="puerta-ciudad">
+                                Puerta de la Ciudad
+                            </option>
+
+                            <option value="catedral">
+                                Catedral de Loja
+                            </option>
+
+                            <option value="podocarpus">
+                                Parque Nacional Podocarpus
+                            </option>
+
+                            <option value="vilcabamba">
+                                Vilcabamba
+                            </option>
+
+                            <option value="san-sebastian">
+                                Plaza de San Sebastián
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- FECHA -->
+                    <div class="campo">
+
+                        <label for="fecha">
+                            Fecha del viaje *
+                        </label>
+
+                        <input
+                            type="date"
+                            id="fecha"
+                            name="fecha"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- NÚMERO DE PERSONAS -->
+                    <div class="campo">
+
+                        <label for="personas">
+                            Número de personas *
+                        </label>
+
+                        <input
+                            type="number"
+                            id="personas"
+                            name="personas"
+                            min="1"
+                            max="50"
+                            placeholder="Ejemplo: 4"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- TIPO DE SERVICIO -->
+                    <div class="campo">
+
+                        <label for="servicio">
+                            Tipo de servicio *
+                        </label>
+
+                        <select
+                            id="servicio"
+                            name="servicio"
+                            required
+                        >
+
+                            <option value="">
+                                Selecciona un servicio
+                            </option>
+
+                            <option value="naturaleza">
+                                Tour Naturaleza
+                            </option>
+
+                            <option value="cultural">
+                                Tour Cultural y Musical
+                            </option>
+
+                            <option value="gastronomico">
+                                Tour Gastronómico
+                            </option>
+
+                            <option value="aventura">
+                                Aventura en Vilcabamba
+                            </option>
+
+                            <option value="personalizado">
+                                Experiencia personalizada
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MENSAJE -->
+                    <div class="campo campo-completo">
+
+                        <label for="mensaje">
+                            Mensaje *
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            placeholder="Escribe aquí tus preguntas o preferencias..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- BOTÓN -->
+                    <div class="campo-completo">
+
+                        <button
+                            type="submit"
+                            class="boton boton-enviar"
+                        >
+                            Enviar solicitud
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <section class="llamada-accion">
+
+            <div class="contenedor">
+
+                <h2>Explora Loja contigo</h2>
+
+                <p>
+                    Estamos listos para ayudarte a conocer
+                    los mejores lugares de Loja.
+                </p>
+
+                <p>
+                    📍 Loja, Ecuador &nbsp; | &nbsp;
+                    📧 infomontoya@exploraloja.com &nbsp; | &nbsp;
+                    📞 +593 99 410 9434
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="contenedor footer-contenido">
+
+            <div>
+                <h3>🌄 Explora Loja</h3>
+
+                <p>
+                    Descubre la cultura, naturaleza y tradición
+                    de Loja, Ecuador.
+                </p>
+            </div>
+
+            <div>
+                <h3>Enlaces</h3>
+
+                <a href="index.html">Inicio</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div>
+                <h3>Contacto</h3>
+
+                <p>📍 Loja, Ecuador</p>
+                <p>📧 infomontoya@exploraloja.com</p>
+                <p>📞 +593 99 410 9434</p>
+            </div>
+
+        </div>
+
+        <div class="footer-final">
+
+            <p>
+                © 2026 Explora Loja | Proyecto académico
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
